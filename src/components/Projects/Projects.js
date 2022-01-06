@@ -3,83 +3,72 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
+import OurCity from "../../Assets/Projects/ourCity.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
+import santaFlies from "../../Assets/Projects/Santa-Flies.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import WonderfulFlowers from "../../Assets/Projects/Wonderful_Flowers.png";
+import sharely from "../../Assets/Projects/Sharely.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className='project-section'>
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+        <h1 className='project-heading'>
+          My Recent <strong className='purple'>Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className='project-card'>
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title='Chatify'
+              description='Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.'
+              link='https://github.com/soumyajit4419/Chatify'
+            />
+          </Col> */}
+
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={OurCity}
+              isBlog={false}
+              title='OurCity'
+              description="Used React-Native and Google Maps API to build a social media app for a local community. It's a platform where users can share their experiences and find out what's happening around them. Users can create groups and add their friends to each of these groups. Users can also add pins to their groups map where they can post comments on each location."
+              link='https://github.com/boba-boys/ourCity'
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={leaf}
+              imgPath={santaFlies}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title='Santa Flies'
+              description='A simple game using JQuery with a festive touch. The game is a flappy-bird clone reskinned as Santa. It uses local storage to save the high score and the user can play the game as many times as they want.'
+              link='https://github.com/chaseholt/Santa-Flies'
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={editor}
+              imgPath={sharely}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title='Sharely'
+              description='Sharely is a website that uses firebase to store the images. Users can upload any image they want and watch the image animate into the grid with the other images.'
+              link='https://web-journal-8f8cc.web.app/'
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={WonderfulFlowers}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title='Wonderful Flowers'
+              description="Created a mock E-Commerce website using React / Redux. It's a simple E-Commerce website where users can add items to their cart and checkout. It also has a great guest experience where the guest will have a persistent cart when they come back to the website."
+              link='https://wonderful-flowers.herokuapp.com/home'
             />
           </Col>
         </Row>
