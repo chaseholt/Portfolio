@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import OurCity from "../../Assets/Projects/ourCity.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+//import emotion from "../../Assets/Projects/emotion.jpeg";
 import santaFlies from "../../Assets/Projects/Santa-Flies.png";
-import chatify from "../../Assets/Projects/chatify.png";
+//import chatify from "../../Assets/Projects/chatify.png";
 import WonderfulFlowers from "../../Assets/Projects/Wonderful_Flowers.png";
 import sharely from "../../Assets/Projects/Sharely.png";
 
