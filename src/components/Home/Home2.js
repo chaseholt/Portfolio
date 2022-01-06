@@ -11,25 +11,24 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className='home-about-description'>
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className='purple'> INTRODUCE </span> MYSELF
-            </h1>
+            <h1 style={{ fontSize: "2.6em" }}>LET ME INTRODUCE MYSELF</h1>
             <p className='home-about-body'>
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a Full Stack Web Developer with a passion for creating
+              intuitive and user-friendly applications. I have a strong
+              background in both front-end and back-end development, and I am
+              constantly learning new technologies and techniques. I am
+              currently looking for a position in the field of Software
+              Engineering.
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in
               <i>
-                <b className='purple'> C++, Javascript and Python. </b>
+                <b className='purple'> Javascript and Java. </b>
               </i>
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              <br />I am interested in building new &nbsp;
               <i>
-                <b className='purple'>Web Technologies and Products </b> and
-                also in areas related to{" "}
                 <b className='purple'>
-                  Deep Learning and Natural Launguage Processing.
+                  Web Technologies and Mobile Applications{" "}
                 </b>
               </i>
               <br />
@@ -44,7 +43,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className='purple'> React.js and Next.js</b>
+                <b className='purple'> React.js and React-Native</b>
               </i>
             </p>
           </Col>
@@ -57,9 +56,7 @@ function Home2() {
         <Row>
           <Col md={12} className='home-about-social'>
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className='purple'>connect </span>with me
-            </p>
+            <p>Feel free to connect with me</p>
             <ul className='home-about-social-links'>
               <li className='social-icons'>
                 <a
