@@ -20,7 +20,7 @@ function Home2() {
               currently looking for a position in the field of Software
               Engineering.
               <br />
-              <br />I am fluent in
+              <br />I am experienced in
               <i>
                 <b className='purple'> Javascript and Java. </b>
               </i>
@@ -56,7 +56,6 @@ function Home2() {
         <Row>
           <Col md={12} className='home-about-social'>
             <h1>FIND ME ON</h1>
-            <p>Feel free to connect with me</p>
             <ul className='home-about-social-links'>
               <li className='social-icons'>
                 <a

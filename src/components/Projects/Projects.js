@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title='Chatify'
               description='Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.'
-              link='https://github.com/soumyajit4419/Chatify'
+              link=''
             />
           </Col> */}
 
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={OurCity}
               isBlog={false}
               title='OurCity'
-              description="Used React-Native and Google Maps API to build a social media app for a local community. It's a platform where users can share their experiences and find out what's happening around them. Users can create groups and add their friends to each of these groups. Users can also add pins to their groups map where they can post comments on each location."
+              description="Used React-Native and Google Maps API to build a social media app for a local community. It's a platform where users can share their experiences and find out what's happening around them. Users can create groups and invite their friends to join. Users can also add pins to their group's map, where they can post comments on each location."
               link='https://github.com/boba-boys/ourCity'
             />
           </Col>
