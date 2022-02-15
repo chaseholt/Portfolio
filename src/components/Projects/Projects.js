@@ -34,6 +34,7 @@ function Projects() {
 
           <Col md={4} className='project-card'>
             <ProjectCard
+              className='mobile'
               imgPath={OurCity}
               isBlog={false}
               title='OurCity'
