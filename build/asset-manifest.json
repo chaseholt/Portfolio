@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73322bce.css",
+    "main.js": "/static/js/main.6275969a.js",
+    "static/js/488.5d1fe145.chunk.js": "/static/js/488.5d1fe145.chunk.js",
+    "static/media/ourCity.png": "/static/media/ourCity.3f3a7891ac004e625e3c.png",
+    "static/media/Santa-Flies.png": "/static/media/Santa-Flies.c0af61604f7c80c52dc2.png",
+    "static/media/Sharely.png": "/static/media/Sharely.3b5b70f5a723023b6079.png",
+    "static/media/Wonderful_Flowers.png": "/static/media/Wonderful_Flowers.3cc25c1e2b9e126eae51.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Chase_Holt_Resume.pdf": "/static/media/Chase_Holt_Resume.3a047d97ae055464e8e4.pdf",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.7f8a566288fc2f1b94eb475309f9e4d6.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.73322bce.css.map": "/static/css/main.73322bce.css.map",
+    "main.6275969a.js.map": "/static/js/main.6275969a.js.map",
+    "488.5d1fe145.chunk.js.map": "/static/js/488.5d1fe145.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73322bce.css",
+    "static/js/main.6275969a.js"
+  ]
+}
